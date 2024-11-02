@@ -1,0 +1,43 @@
+@media print {
+
+    body[data-theme="dark"] {
+        --h1-fcolor: #000000;
+        --h2-fcolor: #000000;
+        --h3-fcolor: #000000;
+        --h4-fcolor: #000000;
+        --h5-fcolor: #000000;
+        --h6-fcolor: #000000;
+        --meta-fcolor: #000000;
+        --body-fcolor: #000000;
+        --meta-b-fcolor: #000000;
+    }
+
+    .single-sidebar, .s-ct img, .header-wrap, .single-related, .footer-wrap, .single-popular, .efoot,
+    .entry-bottom, .entry-newsletter, .featured-gallery-wrap, .breadcrumb-wrap,
+    .s-cats, .l-shared-sec-outer, .entry-sec,
+    .review-section, .s-ct .widget, .related-sec,
+    .sqview, .t-shared-sec, .wp-block-image, .s-feat-holder img,
+    .single-header-inner:before, .breadcrumb-absolute, .single-header-content:before,
+    .featured-embed,.paudio-embed,.pvideo-embed, .tipsy, .top-site-ad, .ruby-table-contents, .single-meta .meta-avatar,
+    .smeta-extra {
+        display: none !important;
+    }
+
+    .s-ct, .single-header-content {
+        flex-basis: 100% !important;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    body .site-outer {
+        margin-top: 0 !important;
+    }
+
+    .single-header-content {
+        padding: 0;
+    }
+
+    .single-header-content *, blockquote *, .smeta-sec * {
+        color: #000000 !important;
+    }
+}
